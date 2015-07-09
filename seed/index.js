@@ -17,7 +17,7 @@ module.exports = yeoman.generators.Base.extend({
 
     this.option('skip-install', {
       desc: 'Whether bower dependencies should be installed',
-      defaults: false,
+      defaults: true,
     });
 
     this.option('skip-install-message', {
@@ -99,6 +99,7 @@ module.exports = yeoman.generators.Base.extend({
     this.copy('index.html', 'index.html', renameElement);
     this.copy('README.md', 'README.md', renameElement);
     this.copy('seed-element.html', this.elementName + '.html', renameElement);
+    this.copy('seed-element.scss', this.elementName + '.scss', renameElement);
     this.copy('demo/index.html', 'demo/index.html', renameElement);
 
     if (this.includeWCT) {
