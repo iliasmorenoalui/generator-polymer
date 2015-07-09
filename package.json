@@ -1,15 +1,16 @@
 {
-  "name": "generator-polymer",
-  "version": "1.0.4",
-  "description": "Scaffold out a Polymer project",
+  "name": "generator-cells",
+  "version": "0.1.0",
+  "description": "Scaffold out a Cells project",
   "keywords": [
     "yeoman-generator",
     "scaffold",
     "framework",
     "mvc",
-    "polymer"
+    "polymer",
+    "cells"
   ],
-  "author": "Chrome Developer Relations",
+  "author": "Cells Team",
   "main": "app/index.js",
   "repository": "yeoman/generator-polymer",
   "scripts": {
