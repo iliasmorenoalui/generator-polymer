@@ -32,7 +32,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
 
     <script>
       document.querySelector('button').addEventListener('click', function() {
-        alert(document.querySelector('cells-seed').sayHello('Hallo!'));
+        alert(document.querySelector('<%= elementName %>').sayHello('Hallo!'));
       });
     </script>
 
